@@ -13,14 +13,15 @@ when i'm finished developing my version of this script, I will also compile it i
 
 # Setup
 This script requires several packages to function. In order from most to least important, here is a list:
-    - PyQt5 (The better method of making GUIs)
-    - PIL (Used for snatching colors off of your main monitor)
-    - configparser (used for taking settings from settings.ini file)
-    - sys (running and exiting the program)
-    - numpy (i hate math so so much oh my GOD)
-    - cv2 (used for blurring n shit later down the road :3)
-    - colorama (so worthless but also so cool so why not right like ahaha)
-    - os (im not even sure im just reading off the imports list i didnt mean to add this one lmafo)
+
+- PyQt5 (The better method of making GUIs)
+- PIL (Used for snatching colors off of your main monitor)
+- configparser (used for taking settings from settings.ini file)
+- sys (running and exiting the program)
+- numpy (i hate math so so much oh my GOD)
+- cv2 (used for blurring n shit later down the road :3)
+- colorama (so worthless but also so cool so why not right like ahaha)
+- os (im not even sure im just reading off the imports list i didnt mean to add this one lmafo)
 
 I can't wait to finish this script so I can release a compiled exe that makes running this program a piece of pie!!
 
