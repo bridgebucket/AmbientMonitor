@@ -77,9 +77,9 @@ class MainWindow(QMainWindow):
         self.label.show()                                       #
 
     def capture_color(self):
-        bbox = (0, 0, 1, 1)                                     # x1, y1, x2, y2
+        bbox = (0, 0, 1, 550)                                     # x1, y1, x2, y2
         img = ImageGrab.grab(bbox)                              # In an ideal world, this grabs the entire strip of pixels off the side of
-        self.target_color = img.getpixel((0, 0))                # the screen. We do not live in an ideal world.
+        self.target_color = img.getpixel((0, 549))                # the screen. We do not live in an ideal world.
 
     def interpolate_color(self, current_color, target_color, factor):
         return (
